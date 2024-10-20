@@ -1,0 +1,64 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1729412998
+<< metal1 >>
+rect 1500 2443 1592 2448
+rect 1500 2392 1600 2443
+rect 1104 2338 1146 2356
+rect 1565 2075 1600 2392
+rect 1734 1538 1792 1600
+rect 677 942 683 994
+rect 735 942 741 994
+rect 683 716 735 942
+rect 889 819 938 1145
+rect 2794 826 2840 868
+rect 630 664 735 716
+<< via1 >>
+rect 683 942 735 994
+<< metal2 >>
+rect 2298 2200 2356 2680
+rect 2288 2140 2297 2200
+rect 2357 2140 2366 2200
+rect 208 1746 244 1780
+rect 683 994 735 1577
+rect 683 936 735 942
+rect 1820 826 1872 1374
+<< via2 >>
+rect 2297 2140 2357 2200
+<< metal3 >>
+rect 2292 2200 2362 2205
+rect 2292 2140 2297 2200
+rect 2357 2140 2362 2200
+rect 2292 2135 2362 2140
+rect 2058 1638 2110 1668
+use nmos_cs  nmos_cs_0
+timestamp 1729401291
+transform 1 0 308 0 -1 1665
+box -308 -716 996 661
+use nmos_diff_amp  nmos_diff_amp_0
+timestamp 1729239461
+transform 1 0 1426 0 1 2810
+box -196 -506 1126 494
+use pmos_cs  pmos_cs_0
+timestamp 1729169387
+transform 0 1 1489 1 0 176
+box -176 -1489 822 1391
+use pmos_diff_amp  pmos_diff_amp_0
+timestamp 1729402320
+transform 1 0 1623 0 1 1728
+box -289 -764 1024 489
+<< labels >>
+flabel metal2 2326 2262 2326 2262 0 FreeSans 800 0 0 0 OUT
+port 0 nsew
+flabel metal1 1768 1568 1768 1568 0 FreeSans 800 0 0 0 VIN
+port 1 nsew
+flabel metal3 2082 1654 2082 1654 0 FreeSans 800 0 0 0 VIP
+port 2 nsew
+flabel metal1 2818 848 2818 848 0 FreeSans 800 0 0 0 VDD
+port 3 nsew
+flabel metal2 228 1758 228 1758 0 FreeSans 800 0 0 0 RS
+port 4 nsew
+flabel metal1 1126 2346 1126 2346 0 FreeSans 800 0 0 0 GND
+port 5 nsew
+<< end >>
