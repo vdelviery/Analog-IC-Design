@@ -1,0 +1,69 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1729054005
+<< viali >>
+rect 139 1056 270 1090
+rect 569 1057 700 1092
+rect 995 1056 1125 1091
+rect 152 36 282 70
+rect 574 36 704 70
+rect 991 36 1121 71
+<< metal1 >>
+rect -1 1092 1267 1127
+rect -1 1090 569 1092
+rect -1 1056 139 1090
+rect 270 1057 569 1090
+rect 700 1091 1267 1092
+rect 700 1057 995 1091
+rect 270 1056 995 1057
+rect 1125 1056 1267 1091
+rect -1 1028 1267 1056
+rect 84 583 228 593
+rect 84 530 93 583
+rect 221 530 228 583
+rect 1125 583 1265 594
+rect 282 540 650 578
+rect 704 540 1071 577
+rect 84 524 228 530
+rect 1125 531 1138 583
+rect 1255 531 1265 583
+rect 1125 524 1265 531
+rect -1 71 1267 99
+rect -1 70 991 71
+rect -1 36 152 70
+rect 282 36 574 70
+rect 704 36 991 70
+rect 1121 36 1267 71
+rect -1 0 1267 36
+<< via1 >>
+rect 93 530 221 583
+rect 1138 531 1255 583
+<< metal2 >>
+rect 84 583 1265 594
+rect 84 530 93 583
+rect 221 531 1138 583
+rect 1255 531 1265 583
+rect 221 530 1265 531
+rect 84 524 1265 530
+rect 84 523 1263 524
+use cmos  x1
+timestamp 1728978940
+transform 1 0 53 0 1 -21
+box -53 21 369 1147
+use cmos  x2
+timestamp 1728978940
+transform 1 0 475 0 1 -21
+box -53 21 369 1147
+use cmos  x3
+timestamp 1728978940
+transform 1 0 897 0 1 -21
+box -53 21 369 1147
+<< labels >>
+flabel metal1 10 1050 90 1107 0 FreeSans 160 0 0 0 VDD
+port 0 nsew
+flabel metal1 13 20 93 77 0 FreeSans 160 0 0 0 GND
+port 1 nsew
+flabel metal2 1174 530 1254 587 0 FreeSans 160 0 0 0 OUT
+port 2 nsew
+<< end >>

@@ -1,0 +1,16 @@
+** sch_path: /home/delviery/ring-oscillator/ring-oscillator3.sch
+**.subckt ring-oscillator3 vdd out gnd
+*.iopin vdd
+*.iopin gnd
+*.opin out
+x1 vdd out net1 gnd cmos
+x2 vdd net1 net2 gnd cmos
+x3 vdd net2 out gnd cmos
+**.ends
+
+* expanding   symbol:  /home/delviery/test-xschem/cmos.sym # of pins=4
+** sym_path: /home/delviery/test-xschem/cmos.sym
+** sch_path: /home/delviery/test-xschem/cmos.sch
+
+
+.end
